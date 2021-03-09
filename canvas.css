@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
+
+canvas {
+    background-color: #f0f0f0;
+    border: 5px solid black;
+}
+
+#pic-1, #pic-2 {
+    margin: 0 10px;
+}
+
+
+#pic-1 ul {
+    list-style: none;
+}
+
+#pic-1:hover {
+    cursor: pointer;
+}
+
+#pic-1 ul li {
+    margin-bottom: 8px;
+}
+
+#pic-1 ul li button {
+    width: 50px;
+    height: 50px;
+}
+
+#pic-1 ul li button img, #pic-2 ul li button {
+    width: 30px;
+    height: 30px;
+}
+
+#pic-1 ul li button:hover {
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+#pic-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#pic-2 ul {
+    list-style: none;
+}
+
+#pic-2:hover {
+    cursor: pointer;
+}
+
+#pic-2 ul li {
+    margin-bottom: 8px;
+}
+
+#pic-2 ul li button {
+    width: 50px;
+    height: 50px;
+}
+
+#pic-2 ul li button:hover {
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+#pic-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#img1, #img2 {
+    width: 100px;
+    height: 100px;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+#reset {
+    background: black;
+    color: white;
+    width: 70px;
+    border: 2px solid white;
+}
+
+#reset:hover {
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+    color: red;
+}
+
+.logout {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logoutbtn {
+    height: 40px;
+    width: 60px;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+
+.logoutbtn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+
+}
+
+
+
+
+
+
+
+
+
