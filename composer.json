@@ -12,5 +12,7 @@
             "email": "63720315+mak-Utsav@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.0.0"
+    }
 }
