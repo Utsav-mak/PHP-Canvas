@@ -1,0 +1,16 @@
+{
+    "name": "utsav_kczo7xj/php-canvas",
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "UtsavKczo7xj\\PhpCanvas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mak-Utsav",
+            "email": "63720315+mak-Utsav@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
