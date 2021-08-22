@@ -16,6 +16,6 @@
     "platform-dev": [],
     "plugin-api-version": "2.1.0",
     "require": {
-        "php": "^7.0.0"
+        "php": "^8.0.0"
     }
 }
